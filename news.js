@@ -1,9 +1,11 @@
 /*JQuery*/
 $.noConflict()
 jQuery(document).ready(function($) {
+    //mobile dropdown
     $('.mobile-dropdown').click(function() {
         $('.mobile-dropdown-content').slideToggle(500)
     }),
+    //close button
     $('.closebtn').click(function() {
         $('.alert').css('display', 'none');
     })
@@ -11,7 +13,7 @@ jQuery(document).ready(function($) {
 
 /*JavaScript*/
 //Scroll indicator
-// When the user scrolls the page, execute myFunction
+//when the user scrolls the page, execute myFunction
 function indicator() {
     window.onscroll = function() {ScrollFunction()};
     function ScrollFunction() {
