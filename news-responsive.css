@@ -15,10 +15,12 @@
     display: flex;
     flex-flow: column wrap;
 }
+/*left / main / right*/
 .left, .main, .right {
     width: 95%;
     margin: 0 auto;
 }
+/*users span*/
 .user1 span, .user2 span, .user3 span {
     margin-bottom: 1rem;
 }
