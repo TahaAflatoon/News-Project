@@ -1,7 +1,7 @@
-/* (Responsive)*/
+/* (Responsive) */
 /* Mobile (small) */
 @media screen and (min-width:320px) and (max-width:374px) {
-/*header*/
+/* header */
 .menu-links, .avatar {
     display: none;
 }
@@ -9,18 +9,18 @@
     display: block;
     margin-left: auto;
 }
-/*content*/
+/* content */
 .content {
     width: 100%;
     display: flex;
     flex-flow: column wrap;
 }
-/*left / main / right*/
+/* left / main / right */
 .left, .main, .right {
     width: 95%;
     margin: 0 auto;
 }
-/*users span*/
+/* users span */
 .user1 span, .user2 span, .user3 span {
     margin-bottom: 1rem;
 }

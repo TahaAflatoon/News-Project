@@ -25,7 +25,7 @@ html {
 body {
     background-color: var(--white2);
 }
-/*header*/
+/* header */
 .header {
     width: 100%;
     height: 50px;
@@ -35,7 +35,7 @@ body {
     top: 0;
     z-index: 5;
 }
-/*header links*/
+/* header links */
 .header-links {
     list-style-type: none;
     display: flex;
@@ -44,14 +44,14 @@ body {
 .header-links h1 {
     font-size: 15pt;
 }
-/*header a links / dropbtn / mobile-dropbtn*/
+/* header a links / dropbtn / mobile-dropbtn */
 .header-links a, .dropbtn, .mobile-dropbtn {
     width: auto;
     height: 50px;
     color: var(--white);
     display: inline-block;
 }
-/*nav-icons / dropbtn / mobile-dropbtn*/
+/* nav-icons / dropbtn / mobile-dropbtn */
 .nav-icons, .dropbtn, .mobile-dropbtn {
     padding: 0.85rem 2rem 0;
     transition: 0.5s ease;
@@ -65,7 +65,7 @@ body {
     color: var(--black);
     background-color: var(--white);
 }
-/*title*/
+/* title */
 .title {
     padding: 0.75rem 1em 0;
     transition: 0.5s ease;
@@ -80,7 +80,7 @@ body {
     background-color: var(--white2);
     text-decoration: none;
 }
-/*bell dropdown*/
+/* bell dropdown */
 .dropdown {
     position: relative;
 }
@@ -110,7 +110,7 @@ body {
     background-color: var(--blue2);
     color: var(--white);
 }
-/*bell number*/
+/* bell number */
 .bell-number {
     background-color: var(--green);
     padding: 3px;
@@ -121,7 +121,7 @@ body {
     -o-border-radius: 50%;
     margin-left: 5px;
 }
-/*avatar*/
+/* avatar */
 .avatar {
     margin-left: auto;
 }
@@ -137,14 +137,14 @@ body {
 .avatar-icon {
     padding-top: 0.6rem;
 }
-/*mobile*/
+/* mobile */
 .mobile {
     display: none;
 }
 .mobile-dropdown {
     position: relative;
 }
-/*mobile dropdown*/
+/* mobile dropdown */
 .mobile-dropdown-content {
     display: none;
     position: absolute;
@@ -176,7 +176,7 @@ body {
     color: var(--black);
     background-color: var(--white2);
 }
-/*scroll indicator*/
+/* scroll indicator */
 .progress-container {
     width: 100%;
     height: 8px;
@@ -190,7 +190,7 @@ body {
     background: var(--blue2);
     width: 0%;
 }
-/*content*/
+/* content */
 .content {
     width: 100%;
     height: auto;
@@ -200,22 +200,22 @@ body {
     justify-content: space-around;
     padding-bottom: 2em;
 }
-/*left*/
+/* left */
 .left {
     width: 24%;
     height: auto;
 }
-/*main*/
+/* main */
 .main {
     width: 56%;
     height: auto;
 }
-/*right*/
+/* right */
 .right {
     width: 16%;
     height: auto;
 }
-/*my profile*/
+/* my profile */
 .myprofile {
     width: 100%;
     height: 300px;
@@ -232,7 +232,7 @@ body {
     text-align: center;
     padding-top: 0.5rem;
 }
-/*profile & avatar*/
+/* profile & avatar */
 .avatar3 {
     width: 100px;
     height: 100px;
@@ -266,7 +266,7 @@ body {
 .myprofile-info li span {
     padding-left: 1rem;
 }
-/*activities*/
+/* activities */
 .activities {
     width: 100%;
     height: auto;
@@ -294,7 +294,7 @@ body {
 .activities i {
     padding-right: 1rem;
 }
-/*my photos*/
+/* my photos */
 .my-photos {
     padding-right: 0.6rem !important;
 }
@@ -303,7 +303,7 @@ body {
     color: var(--black);
     text-decoration: none;
 }
-/*interests*/
+/* interests */
 .interests {
     width: 100%;
     height: auto;
@@ -321,7 +321,7 @@ body {
     font-weight: normal;
     padding: 10px 0;
 }
-/*interests list*/
+/* interests list */
 .interests-list {
     list-style-type: none;
     display: flex;
@@ -339,7 +339,7 @@ body {
 .interests-list li:nth-child(odd) span {
     background-color: var(--blue2);
 }
-/*alert*/
+/* alert */
 .alert {
     width: 100%;
     height: auto;
@@ -356,7 +356,7 @@ body {
     float: left;
     padding: 6px 0;
 }
-/*close button*/
+/* close button */
 .closebtn {
     color: var(--white2);
     font-weight: bold;
@@ -375,7 +375,7 @@ body {
 .alert p {
     clear: both;
 }
-/*status*/
+/* status */
 .status, .user1, .user2, .user3 {
     width: 100%;
     height: auto;
@@ -424,7 +424,7 @@ body {
 .status button:hover {
     background-color: var(--white3);
 }
-/*users*/
+/* users */
 .user1, .user2, .user3 {
     margin-top: 1em;
 }
@@ -467,7 +467,7 @@ body {
     width: 100%;
     height: 250px;
 }
-/*images overlay*/
+/* images overlay */
 .overlay {
     position: absolute;
     bottom: 0;
@@ -491,7 +491,7 @@ body {
     text-align: center;
     padding-top: 1rem;
 }
-/*images overlay2*/
+/* images overlay2 */
 .overlay2 {
     position: absolute;
     bottom: 0;
@@ -510,7 +510,7 @@ body {
     width: 100%;
     left: 0;
 }
-/*user buttons*/
+/* user buttons */
 .user-buttons {
     padding: 0.5rem;
     background-color: var(--blue3);
@@ -538,8 +538,8 @@ body {
     -ms-border-radius: 2.5px;
     -o-border-radius: 2.5px;
 }
-/*right*/
-/*upcoming*/
+/* right */
+/* upcoming */
 .upcoming, .request {
     width: 100%;
     height: auto;
@@ -577,7 +577,7 @@ body {
 .info-btn:hover {
     background-color: var(--white3);
 }
-/*request*/
+/* request */
 .request {
     margin-top: 1em;
 }
@@ -585,7 +585,7 @@ body {
     display: flex;
     flex-flow: row wrap;
 }
-/*accept / deny*/
+/* accept / deny */
 .accept, .deny {
     width: 50%;
     border: none;
@@ -607,7 +607,7 @@ body {
 .accept:hover, .deny:hover {
     background-color: var(--white3);
 }
-/*ads / bug*/
+/* ads / bug */
 .ads, .bug {
     width: 100%;
     height: 125px;
@@ -624,7 +624,7 @@ body {
     justify-content: center;
     align-content: center;
 }
-/*footer*/
+/* footer */
 .footer {
     width: 100%;
     height: auto;
